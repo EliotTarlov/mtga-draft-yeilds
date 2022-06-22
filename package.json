@@ -1,0 +1,19 @@
+{
+  "name": "draft-yeild",
+  "version": "1.0.0",
+  "description": "A program to fetch 17lands and untapped.gg draft records and translate them into average gem and pack yeilds.",
+  "main": "basis.js",
+  "scripts": {
+    "test": "yeild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliotTarlov/mtga-draft-yeilds.git"
+  },
+  "author": "Eliot Tarlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliotTarlov/mtga-draft-yeilds/issues"
+  },
+  "homepage": "https://github.com/EliotTarlov/mtga-draft-yeilds#readme"
+}
