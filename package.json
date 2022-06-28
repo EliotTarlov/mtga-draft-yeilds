@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/EliotTarlov/mtga-draft-yeilds/issues"
   },
-  "homepage": "https://github.com/EliotTarlov/mtga-draft-yeilds#readme"
+  "homepage": "https://github.com/EliotTarlov/mtga-draft-yeilds#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "pupeteer": "0.0.1"
+  }
 }

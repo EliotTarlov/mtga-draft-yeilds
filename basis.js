@@ -68,3 +68,13 @@ function averagePackYeild(runs,packRewards){
     }
     return out/runs.length;
 }
+async function scrape() {
+   const browser = await puppeteer.launch({})
+   const page = await browser.newPage()
+
+   await page.goto(getElmementById('URL').value)
+   var element = await page.waitForSelector("#user_history > div > div.scrolling-table > table > tbody")
+   console.log(element)
+   browser.close()
+}
+scrape()
